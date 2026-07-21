@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <p>Mi primera página web creada con HTML</p>
+    <button id="miBoton">Haz clic aquí</button>
+
+    <script>
+        document.getElementById('miBoton').addEventListener('click', function() {
+            alert('Bienvenido a mi página web');
+        });
+    </script>
+</body>
+</html>

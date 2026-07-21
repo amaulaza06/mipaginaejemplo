@@ -1,0 +1,6 @@
+{
+  "name": "Hola Mundo Simple",
+  "description": "Una página web sencilla creada únicamente con HTML, CSS y JavaScript puro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
